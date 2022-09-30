@@ -2,7 +2,7 @@
 
 ## Learning Goals
 
-- Define variable scope lambda expressions.
+- Define variable scope in lambda expressions.
 - Recognize scope errors in lambda expressions.
 
 ## Introduction
