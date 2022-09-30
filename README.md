@@ -99,7 +99,8 @@ _effectively final_ when its value isn’t changed after initialization.
 
 The body of a lambda expression has the same scope as a nested block.
 This means the lambda expression can't declare a variable with the same name as the enclosing
-method or class.
+method.   However, a lambda expression can declare a variable with the same name as an instance or static variable,
+just as a method can.
 
 
 ```java
