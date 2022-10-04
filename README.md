@@ -35,7 +35,7 @@ public class Example {
 
 The program prints:
 
-```plaintext
+```text
 Hi, how are you doing, John?
 ```
 
@@ -66,7 +66,7 @@ public class Example {
 
 The program prints:
 
-```plaintext
+```text
 Hi, how are you doing, John?
 ```
 
@@ -153,7 +153,7 @@ public class Example {
 
 The program prints:
 
-```plaintext
+```text
 Hi, how are you doing, John?
 ```
 
