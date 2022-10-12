@@ -33,7 +33,9 @@ public class Example {
 }
 ```
 
-```plaintext
+The program prints:
+
+```text
 Hi, how are you doing, John?
 ```
 
@@ -62,7 +64,9 @@ public class Example {
 }
 ```
 
-```plaintext
+The program prints:
+
+```text
 Hi, how are you doing, John?
 ```
 
@@ -86,6 +90,8 @@ public class Example {
     }
 }
 ```
+
+The program prints:
 
 ```java
 java: local variables referenced from a lambda expression must be final or effectively final
@@ -145,9 +151,12 @@ public class Example {
 }
 ```
 
-```plaintext
+The program prints:
+
+```text
 Hi, how are you doing, John?
 ```
+
 While a lambda expression can access any static members of the enclosing class, 
 instance members must be accessed through an implicit (i.e. `this`) or explicit object reference.
 For example, the lambda expression below is defined within an instance method.  This means a `Person`
@@ -186,7 +195,8 @@ public class Person {
 }
 ```
 
-The program output:
+The program prints:
+
 ```text
 Hello fred:1
 Hello fred:2
@@ -196,6 +206,7 @@ Hello sue:3
 ## Summary
 
 The body of a lambda expression follows the same scoping rules as a nested block.  
+
 - A lambda expression can declare local variables within its method body if there are no naming conflicts with the enclosing method.
 - A lambda expression can access local variables of the enclosing method if they are final or effectively final.
 - A lambda expression can access static members of the enclosing class.
